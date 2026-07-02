@@ -1,7 +1,28 @@
-git init
-git add .
-git commit -m "Initial commit - File Organizer"
-git branch -M main
-git remote add origin https://github.com/Rodion1337-star/file-organizer.git
-git push -u origin main
+# File Organizer
 
+**Desktop-приложение для автоматической сортировки файлов**
+
+Утилита, которая помогает быстро навести порядок в папках с файлами.
+
+## Возможности
+
+- Автоматическая сортировка по типам (Images, Documents, Videos, Audio, Archives, Others)
+- Сортировка по дате (папки по годам/месяцам)
+- Dry Run режим (показывает, что будет сделано)
+- Прогресс-бар и логи
+- Настраиваемые расширения
+- Тёмная тема
+
+## Технологии
+- Python
+- CustomTkinter
+
+## Скриншоты
+
+(добавь сюда скриншоты)
+
+## Как запустить
+
+```bash
+pip install -r requirements.txt
+python main.py
